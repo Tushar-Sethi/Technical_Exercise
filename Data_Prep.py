@@ -22,7 +22,7 @@ def Prepare_data():
 
 try:
     df = Prepare_data()
-    print(df.columns)
+    print(df)
 except:
     print('Some Error Occured')
 
