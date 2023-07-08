@@ -32,9 +32,9 @@ Created visualizations, including line plots, bar plots to present the analysis 
 
 ## Requirements
 The following Python libraries were used for this analysis:
-1. pandas
-2. matplotlib
-3. openpyxl
+1. pandas: For manipulating the DataFrame.
+2. matplotlib: For Visualization.
+3. openpyxl: To read the Excel File
 
 ## Usage
 1. Install the required libraries using pip
