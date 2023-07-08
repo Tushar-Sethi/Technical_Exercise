@@ -8,6 +8,7 @@ try:
         # Getting the Data from the Data_Prep script
         sorted_df = Prepare_data()
 
+        # Calculating the Total AMount for Each Customer
         customer_totals = sorted_df.groupby('CustomerID')['TotalAmount'].sum().reset_index()
 
         # Calculating the percentiles
@@ -24,7 +25,6 @@ try:
 
     customer_totals = get_customer_segmentation()
 
-    print(customer_totals.columns)
-    print(customer_totals.shape)
+    print(customer_totals)
 except:
     print('Some Error Occured')
