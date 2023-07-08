@@ -8,10 +8,10 @@ This analysis explores customer purchase data from an online retail store. It ai
 ## Dataset
 The dataset used for this analysis contains the following columns:
 
-CustomerID: Unique identifier for each customer
-ProductName: Name of the purchased product
-ProductCode: Unique identifier for the product
-Quantity: Quantity of the product purchased
-UnitPrice: Price of the product
-Date: Date of the purchase
-Country: Country where the customer is based
+1. CustomerID: Unique identifier for each customer
+2. ProductName: Name of the purchased product
+3. ProductCode: Unique identifier for the product
+4. Quantity: Quantity of the product purchased
+5. UnitPrice: Price of the product
+6. Date: Date of the purchase
+7. Country: Country where the customer is based
